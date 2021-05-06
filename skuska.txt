@@ -1,7 +1,7 @@
 jeden
 dva
-3
-styri
+tri
+4
 5
 sest
 7
