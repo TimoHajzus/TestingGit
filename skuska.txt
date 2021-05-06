@@ -1,8 +1,8 @@
 jeden
 dva
 tri
-4
-5
+styri
+pat
 sest
 7
 8
