@@ -7,4 +7,4 @@ pat
 7
 osem
 9
-10
+desat
