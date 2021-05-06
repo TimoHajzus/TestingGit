@@ -6,5 +6,5 @@ pat
 6
 7
 osem
-9
+devat
 desat
