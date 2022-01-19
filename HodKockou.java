@@ -10,7 +10,7 @@ public class HodKockou {
         System.out.println("Zadaj počet hodov");
         int pocetHodov = sc.nextInt();
         int[] hody = new int[pocetHodov];
-        int[] vysledok = new int[6];
+        int[] vysledok = new int[pocetKociek * 6];
         for (int i = 0; i < hody.length; i++) {
             hody[i]=0;
         }
@@ -19,11 +19,9 @@ public class HodKockou {
         }
         for (int i = 0; i < hody.length; i++) {
             for (int j = 0; j < pocetKociek; j++) {
-                int nahoda = (int) (Math.random() * 6) + 1;
-                hody[i] += nahoda ;
-                vysledok[nahoda-1]++;
+                hody[i] += (int) (Math.random() * 6) + 1;
             }
-            //vysledok[(hody[i]-1)]++;
+            vysledok[(hody[i]-1)]++;
             System.out.print(hody[i] + " ");
         }
         System.out.println();
